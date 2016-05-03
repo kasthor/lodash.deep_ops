@@ -1,6 +1,6 @@
 {
   "name": "for_in_deep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lodash mix in for iterating objects",
   "main": "lodash.for_in_deep.js",
   "directories": {
