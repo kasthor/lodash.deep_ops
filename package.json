@@ -19,7 +19,5 @@
   ],
   "author": "Giancarlo Palavicini <kasthor@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.11.2"
-  }
+  "dependencies": {}
 }
