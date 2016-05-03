@@ -1,3 +1,5 @@
+if( (typeof process !== 'undefined') && (process.release.name === 'node') ) var _ = require('lodash');
+
 _.mixin({
   forInDeep: function( object, path, iteratee ){
     if( _.isUndefined( iteratee ) ){
