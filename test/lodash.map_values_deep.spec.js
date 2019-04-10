@@ -1,6 +1,6 @@
 /* globals beforeEach test expect */
 const _ = require('lodash');
-_.mixin(require('../lodash.for_in_deep'));
+_.mixin(require('../lodash.deep_ops'));
 
 let object;
 
