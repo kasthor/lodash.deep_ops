@@ -8,8 +8,8 @@ beforeEach(() => {
   object = {
     key: 'value',
     level1: {
-      key: 'value',
-    },
+      key: 'value'
+    }
   };
 });
 

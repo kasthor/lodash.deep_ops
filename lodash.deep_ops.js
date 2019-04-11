@@ -35,5 +35,5 @@ module.exports = {
         (v, k) => ((_.isObject(v))
           ? [k, _.mapValuesDeep(v, iteratee)] : [k, _.iteratee(iteratee)(v)])),
     );
-  },
+  }
 };

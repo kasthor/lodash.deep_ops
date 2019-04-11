@@ -11,9 +11,9 @@ beforeEach(() => {
     level_1: {
       find: 'me',
       level_2: {
-        find: 'me',
-      },
-    },
+        find: 'me'
+      }
+    }
   };
 });
 
@@ -33,10 +33,10 @@ test('iterates only thru filtered keys', () => {
 test('iterates fine on arrays', () => {
   object = {
     array: [{
-      find: 'me',
+      find: 'me'
     }, {
-      child: 'me',
-    }],
+      child: 'me'
+    }]
   };
   const keys = [];
 
@@ -66,10 +66,10 @@ test('calls the iterator with the right path', () => {
 test('calls the iterator with the right object', () => {
   object = {
     array: [{
-      find: 'me',
+      find: 'me'
     }, {
-      child: 'me',
-    }],
+      child: 'me'
+    }]
   };
   let resp;
 

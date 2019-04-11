@@ -10,9 +10,9 @@ beforeAll(() => {
     level_1: {
       find: 'me',
       level_2: {
-        find: 'me',
-      },
-    },
+        find: 'me'
+      }
+    }
   };
 });
 
