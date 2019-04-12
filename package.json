@@ -1,6 +1,6 @@
 {
   "name": "lodash.deep_ops",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lodash mix in for iterating objects deeply",
   "main": "lodash.deep_ops.js",
   "directories": {
