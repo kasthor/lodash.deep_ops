@@ -33,7 +33,7 @@ module.exports = {
     return _.fromPairs(
       _.map(object,
         (v, k) => ((_.isObject(v))
-          ? [k, _.mapValuesDeep(v, iteratee)] : [k, _.iteratee(iteratee)(v)])),
+          ? [k, _.mapValuesDeep(v, iteratee)] : [k, _.iteratee(iteratee)(v)]))
     );
   }
 };
